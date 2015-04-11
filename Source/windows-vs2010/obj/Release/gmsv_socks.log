@@ -1,0 +1,24 @@
+﻿Build started 4/12/2015 12:23:54 AM.
+     1>Project "c:\Users\Azarus\Documents\Visual Studio 2013\Projects\SocketExtension\GMSocks\windows-vs2010\gmsv_socks.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\include /Zi /nologo /W3 /WX- /Ox /Oy- /D NDEBUG /D _CRT_SECURE_NO_WARNING /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"..\lib\windows\gmsv_socks.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\CAddress.cpp ..\src\CSocket.cpp ..\src\gm_socks.cpp
+         CAddress.cpp
+     1>..\src\CAddress.cpp(50): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\src\CAddress.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+         CSocket.cpp
+         gm_socks.cpp
+     1>..\src\gm_socks.cpp(34): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\lib\windows\gmsv_socks.dll" /INCREMENTAL:NO /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\lib\windows\gmsv_socks.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\lib\windows\gmsv_socks.lib" /MACHINE:X86 /SAFESEH /DLL obj\Release\CAddress.obj
+         obj\Release\CSocket.obj
+         obj\Release\gm_socks.obj
+            Creating library ..\lib\windows\gmsv_socks.lib and object ..\lib\windows\gmsv_socks.exp
+         gmsv_socks.vcxproj -> c:\Users\Azarus\Documents\Visual Studio 2013\Projects\SocketExtension\GMSocks\windows-vs2010\..\lib\windows\gmsv_socks.dll
+     1>Done Building Project "c:\Users\Azarus\Documents\Visual Studio 2013\Projects\SocketExtension\GMSocks\windows-vs2010\gmsv_socks.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.40
