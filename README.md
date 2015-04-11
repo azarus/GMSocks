@@ -3,7 +3,13 @@ Finally a working and well written socket extension for Garrys Mod 13!
 
 **IMPORTANT!** This socket library is non blocking on purpose!
 
-**UDP Functions**
+# Download
+Grab the binaries from here:
+https://github.com/azarus/GMSocks/releases/download/0.1/Release.zip
+
+# Docs
+
+There is only 2 functions for udp and it should be enough for basic networking.
 
 *string UDPReceive(number port, string ip, number bytes = 2048)*
 - Retrieves data from a desired address
