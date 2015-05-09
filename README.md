@@ -20,6 +20,8 @@ There is only 2 functions for udp and it should be enough for basic networking.
 - Sends data to the desired address
 - Returns the number of bytes sent
 
+FOR A COMPLETE EXAMPLE LOOK AT Example.lua:
+https://github.com/azarus/GMSocks/blob/master/Example.lua
 
 **Ping <-> Pong example:**
 ```
