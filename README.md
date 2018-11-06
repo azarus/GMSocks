@@ -25,6 +25,7 @@ https://github.com/azarus/GMSocks/blob/master/Example.lua
 
 **Ping <-> Pong example:**
 ```
+require("socks");
 
 local Cfg = {};
 Cfg.IP = "123.123.123.123";
