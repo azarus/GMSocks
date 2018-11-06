@@ -1,4 +1,4 @@
-require("udp");
+require("socks");
 
 local Cfg = {};
 Cfg.IP = "127.0.0.1";
